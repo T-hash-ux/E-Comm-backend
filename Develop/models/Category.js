@@ -14,6 +14,7 @@ Category.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    // The category_name property is a required string that stores the name of the category
     category_name: {
 
       type: DataTypes.STRING,

@@ -6,10 +6,13 @@ const { Category, Product } = require('../../models');
 router.get('/', async (req, res) => {
   try {
     const categoryData = await Category.findAll({
+      // setup the findAll sequelize method.
 
-      include: [{ model: Product }],
+      include: [{ model: Product }],  
     });
+    // include the Product model    
     res.status(200).json(categoryData);
+    // return the data as JSON
   } catch (err) {
     res.status(500).json(err);
   }
