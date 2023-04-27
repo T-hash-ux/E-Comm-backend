@@ -40,7 +40,7 @@ router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
 });
-
+// The POST router is set sup to be able to create an anew Category.
 router.post('/', async (req, res) => {
   try {
     const categoryData = await Category.create(re.body);
