@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
   // find all categories
   // be sure to include its associated Products
 });
-
+// This GET route retrieves a category by its ID, including all associated products
 router.get('/:id', async (req, res) => {
   try {
     const categoryData = await Category.findByPk(req.params.id, {
