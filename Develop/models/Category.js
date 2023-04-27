@@ -1,3 +1,4 @@
+// Set up sequelize packages for Model, and DataTypes.
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
