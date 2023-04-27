@@ -50,7 +50,7 @@ router.post('/', async (req, res) => {
   }
   // create a new category
 });
-
+// The PUT router is set up to be able to update an existing category.
 router.put('/:id', async (req, res) => {
   try {
     const categoryData = await Category.update(req.body, {
