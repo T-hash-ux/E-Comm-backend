@@ -18,3 +18,5 @@ When the terminal is open the user with input "mysql -u root -p" and then input 
 
 ## License
 MIT License
+
+Walkthrough video:  https://drive.google.com/file/d/1gFSejhYbI9gii_bXMc0hm3QVsnjdDj8r/view
